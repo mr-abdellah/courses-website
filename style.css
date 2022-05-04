@@ -8,6 +8,12 @@ body {
     overflow-x: hidden;
 }
 
+.first-section {
+    background: url(img/fs-background.png) no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+}
+
 .navbar {
     display: flex;
     justify-content: space-evenly;
@@ -30,6 +36,7 @@ body {
 #navbar2 {
     gap: 15%;
     width: 10%;
+    margin-right: 13%;
 }
 
 .navbar ul {
@@ -63,4 +70,70 @@ body {
 
 #arrow-right {
     margin-left: 15%;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 15% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #96bb7c;
+    width: 45%;
+}
+h1 p {
+    font-size: 58px;
+    line-height: 80px;
+    color: #252b42;
+    margin: 3%;
+}
+
+#h1-sp {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    width: 35%;
+}
+
+.h1-buttons {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero button {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 5px;
+    padding: 4% 10%;
+}
+
+#fb {
+    background-color: #96bb7c;
+    border: none;
+    color: #fff;
+}
+
+#sb {
+    border: 1px solid #96bb7c;
+    color: #96bb7c;
+    background-color: transparent;
 }
